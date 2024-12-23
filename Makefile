@@ -11,7 +11,8 @@ endif
 LANG_STD = -std=c++17
 COMPILER_FLAGS = -Wall -Wfatal-errors
 
-SRC_FILES = ./src/*.cpp
+SRC_FILES = ./src/*.cpp \
+			./src/States/*.cpp
 OBJ_NAME = WestWorldGame
 
 ###########################################################
